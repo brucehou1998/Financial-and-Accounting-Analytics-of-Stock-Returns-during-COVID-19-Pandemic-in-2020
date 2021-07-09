@@ -12,7 +12,7 @@ For industry codes, we capture 4 types of classification methods, Standard Indus
 
 ### Preliminary Analysis
 
-First part of analysis mainly focuses on selecting the industry code that creates the best classifications of industries. We measure quality of classification based on three criteria: Adjusted r square from fixed effect, distribution of companies among each industry, and numbers of industry in total. Among 4 classification methods, GSECTOR in GICS outstrips others given highest adjust r-square from fixed effect in separating industries, the most balanced distribution of companies in each industry, and the most moderate numbers of industries in total, 11. 
+First part of analysis mainly focuses on selecting the industry code that creates the best classifications of industries. We measure quality of classification based on three criteria: Adjusted r square from fixed effect, distribution of companies among each industry, and numbers of industry in total. Among 4 classification methods, GSECTOR in GICS outstrips others given highest adjust r-square from fixed effect in separating industries, the most balanced distribution of companies in each industry, and the most moderate numbers of industries in total. 
 
 The next step is to deal with financial ratio. Among all financial variables we created, we select 10 variables due to their highest absolute correlation value with stock return. We then run two linear regressions: One measures relationship between early stock return and financial ratio; the other analyzes the late stock return. Financial variables that show statistically significance are selected for further analysis. 
 
